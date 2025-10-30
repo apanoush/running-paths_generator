@@ -1,0 +1,17 @@
+settings:
+  # spatial coordinates of chosen starting point for the loops
+  # will be overwritten if passed with the -c command argument
+  START_POINT: [null, null]
+  # target distance of the loops in km
+  TARGET_DISTANCE_KM: 5
+  # ±15% distance tolerance
+  TOLERANCE: 0.5
+  # number of random loop attempts
+  NUM_ATTEMPTS: 500
+  # max percentage of allowed nodes to be duplicated
+  MAX_PERCENTAGE_OF_DUPLICATE_NODES: 0.7
+  # max similiraty between paths to not be discarded (can be null)
+  DISCARD_SIMILARITY_THRESHOLD: null # 0.8
+
+paths:
+  RESULTS_PATH: "results"

@@ -1,0 +1,7 @@
+data/*
+!data/README.md
+results/*
+!results/README.md
+
+*.pyc
+cache
