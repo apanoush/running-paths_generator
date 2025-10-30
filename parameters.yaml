@@ -4,7 +4,7 @@ settings:
   START_POINT: [null, null] # [LAT, LON]
   # target distance of the loops in km
   TARGET_DISTANCE_KM: 5
-  # ±15% distance tolerance
+  # ±TOLERANCE% distance tolerance in paths found by the program
   TOLERANCE: 0.5
   # number of random loop attempts
   NUM_ATTEMPTS: 500
