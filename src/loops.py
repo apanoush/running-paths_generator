@@ -95,7 +95,8 @@ def visualize_loops(G, loops, start_point):
     return m
 
 def filter_similar_loops(loops, similarity_threshold=0.8):
-    """filter out loops that share too many nodes (too similar)"""
+    """filter out loops that share too many nodes (too similar)
+    uses the Jaccard Index: https://en.wikipedia.org/wiki/Jaccard_index"""
     unique_loops = []
     seen = []
 
