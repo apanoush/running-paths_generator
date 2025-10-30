@@ -59,7 +59,6 @@ def find_loops(G, start_node, target_distance_km, num_attempts, tolerance, max_p
             continue
     return loops
 
-
 def visualize_loops(G, loops, start_point):
     """render found loops on a Folium map with LayerControl toggles"""
     # picking "Cartodb Positron" (not default OSM) for better visiblity
