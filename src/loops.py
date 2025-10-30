@@ -40,9 +40,6 @@ def find_loops(G, start_node, target_distance_km, num_attempts, tolerance, max_p
             if (node1 in path3) or (node2 in path1):
                 continue
 
-            #if len(path_out) < 3 or len(path_back) < 3:
-            #    continue
-
             full_path = path1 + path2[1:] + path3[1:]
 
             len_path = len(full_path)
@@ -97,7 +94,6 @@ def visualize_loops(G, loops, start_point):
     folium.LayerControl(collapsed=False).add_to(m)
 
     return m
-
 
 def filter_similar_loops(loops, similarity_threshold=0.8):
     """filter out loops that share too many nodes (too similar)"""
