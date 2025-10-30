@@ -23,7 +23,7 @@ RESULTS_PATH = parameters["paths"]["RESULTS_PATH"]
 def main(args: argparse.Namespace) -> None:
 
     if args.coordinates:
-        START_POINT = args.coordinates
+        START_POINT = tuple(args.coordinates)
 
     search_radius_m = (TARGET_DISTANCE_KM * (1+TOLERANCE)) * 1000 // 2 # radius for OSM data download
     search_radius_km = search_radius_m / 1000 
