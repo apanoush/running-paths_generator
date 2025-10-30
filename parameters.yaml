@@ -1,7 +1,7 @@
 settings:
   # spatial coordinates of chosen starting point for the loops
   # will be overwritten if passed with the -c command argument
-  START_POINT: [null, null]
+  START_POINT: [null, null] # [LAT, LON]
   # target distance of the loops in km
   TARGET_DISTANCE_KM: 5
   # ±15% distance tolerance
