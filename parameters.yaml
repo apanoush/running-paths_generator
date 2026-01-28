@@ -3,7 +3,7 @@ settings:
   # will be overwritten if passed with the -c command argument
   START_POINT: [null, null] # [LAT, LON]
   # target distance of the loops in km
-  TARGET_DISTANCE_KM: 5
+  TARGET_DISTANCE_KM: 10
   # ±TOLERANCE% distance tolerance in paths found by the program
   TOLERANCE: 0.5
   # number of random loop attempts
